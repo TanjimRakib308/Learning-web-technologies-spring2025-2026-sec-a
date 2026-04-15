@@ -1,0 +1,29 @@
+<?php
+
+    if(isset($_REQUEST['submit'])){
+    
+    $username = $_REQUEST['username'];
+   
+    }
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>NAME</legend>
+        <form method="post" action="name.php">
+            Username: <input type="text" name="username" value=""/> <br>
+                    <input type="submit" name="submit" value="Submit"/>
+
+    
+      </form>
+    </fieldset>
+ 
+</body>
+</html>
+
